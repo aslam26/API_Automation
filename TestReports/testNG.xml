@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Booking API">
+    <test name="API Test">
+        <classes>
+            <class name="com.restfulHerokuapp.Tests.GetRequest"/>
+            <class name="com.restfulHerokuapp.Tests.PostRequest"/>
+            <class name="com.restfulHerokuapp.Tests.PutRequest"/>
+            <class name="com.restfulHerokuapp.Tests.PatchRequest"/>
+            <class name="com.restfulHerokuapp.Tests.DeleteRequest"/>
+            <class name="com.restfulHerokuapp.Tests.E2ETesting"/>
+        </classes>
+    </test>
+</suite>
